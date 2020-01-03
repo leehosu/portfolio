@@ -15,13 +15,12 @@ const Education = () => {
         </div>
         <div className="Education-contents">
           <h3>Hanshin University</h3>
-          <span className="education-date">Sept 2016 - Sept 2017</span>
+          <span className="education-date">Marth 2013 - February 2020</span>
           <h4>Bachelor of Science in Computer Science</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
-            nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
-            libero. Morbi dapibus porta quam laoreet placerat.
+            컴퓨터공학부 학사로 2020년 2월에 졸업하였으며, Computer Vision Lab과 Software Engineering Lab에서 연구활동을 하였으며
+            Computer Vision 연구실에서는 학생 연구실장을 지냈습니다. 또, 교수님과 전공 소학회도 진행하였고 3,4 학년때 2,3학년들을 대상으로 JAVA, Web Programing tutering을 진행한 경험이 있습니다.
+            그리고 교내에서 진행하는 해커톤 대회에서 은상, 졸업 작품 금상을 받아 수상 경력도 있습니다.
           </p>
         </div>
       </div>

@@ -9,7 +9,10 @@ const Footer = () => {
     <div className= "footer">
       <div className="container">
         <div className="copyright">
-            <p>Copyright © 2020 Lee Hosu</p>
+          <p>Copyright © 2020 <br />
+          Lee Hosu 010-4224-4549 <br />
+          
+          </p>
           </div>
           <div className="social">
                 <a href="https://github.com/leehosu">

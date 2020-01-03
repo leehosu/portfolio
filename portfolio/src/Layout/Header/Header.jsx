@@ -17,7 +17,7 @@ const Header = () => {
         </div>
         <div className="header-overlay"></div>
         <div className="header-scrollDown">
-          <span onClick={scrollDown} />
+          <span onClick={scrollDown}> ▽ </span>
         </div>
       </div>
     </div>
