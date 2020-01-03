@@ -7,6 +7,7 @@ const Experience = () => {
   return (
     <Element className="contents-Experience" name="experience">
       <h2 className="Experience-heading">Experience</h2>
+
       <div className="Experience-timeline">
         <div className="vtimeline-point">
           <div className="vtimeline-icon"></div>

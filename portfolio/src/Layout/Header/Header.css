@@ -70,3 +70,31 @@
   border: 3px solid white;
   text-align: center;
 }
+
+@media only screen and (max-width: 992px) {
+  .header-background {
+    height: auto;
+    min-height: auto;
+    max-height: auto;
+    padding: 100px 15px;
+  }
+
+  .header-content {
+    position: relative;
+    transform: none;
+    left: auto;
+    top: auto;
+  }
+
+  .header-content h1 {
+    font-size: 1.5em;
+  }
+
+  .heder-content h2 {
+    font-size: 1em;
+  }
+
+  .header-scrollDown {
+    display: none;
+  }
+}
