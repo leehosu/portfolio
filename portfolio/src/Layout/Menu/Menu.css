@@ -21,4 +21,25 @@
   color: white;
   flex: 1;
   text-align: center;
+  cursor: pointer;
+}
+
+.menu_item a:hover {
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .menu {
+    font-size: 50px;
+  }
+
+  .menu_item {
+    padding: 30px;
+  }
+
+  .menu_item a:hover {
+    font-weight: bold;
+    color: white;
+  }
 }
