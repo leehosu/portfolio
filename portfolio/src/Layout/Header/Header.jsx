@@ -1,7 +1,6 @@
 import React from 'react';
 import { animateScroll as scroll } from "react-scroll";
 import './Header.css';
-
 const Header = () => {
   
   const scrollDown = () => {
