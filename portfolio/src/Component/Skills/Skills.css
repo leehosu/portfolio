@@ -47,3 +47,39 @@
   cursor: default;
   font-size: 1.2em;
 }
+
+@media only screen and (max-width: 992px) {
+  .Skills-heading {
+    color: #374054;
+    position: relative;
+    display: inline-block;
+    font-size: 4em;
+    font-weight: 300;
+    margin: 0 0 50px 0;
+    padding-bottom: 10px;
+  }
+
+  .Skills-heading:after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    height: 1px;
+    width: 150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #3498db;
+  }
+
+  .contents-Skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+  }
+
+  .contents-Skills li {
+    font-size: 4em;
+    margin: 20px;
+  }
+}

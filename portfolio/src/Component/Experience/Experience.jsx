@@ -3,9 +3,7 @@ import { Element } from "react-scroll";
 import './Experience.css';
 import ExperienceItem from '../ExperienceItem';
 
-
 const projectList = [
-  
   {
     id: 0,
     date: "April 2019 - Proceeding",
