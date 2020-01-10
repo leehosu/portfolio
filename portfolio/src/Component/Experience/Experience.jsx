@@ -18,9 +18,9 @@ const projectList = [
   {
     id: 1,
     date: "March 2019 - November 2019",
-    title: "Error Tracking Flatform 개발",
-    stack: "TypeScript, React.JS, GraphQL, Material-UI 등",// eslint-disable-next-line
-    contents: "TypeScript와 React.JS, GraphQL등을 이용한 Error Tracking Platform 입니다.\
+    title: "Error Tracking Platform 개발",
+    stack: "TypeScript, React.JS, Material-UI 등",// eslint-disable-next-line
+    contents: "TypeScript와 React.JS 을 이용한 Error Tracking Platform 입니다.\
                 개발자가 개발 후 운영 서비스중에 파악하지 못한 error들에 대해\
                 Tracking해주고 DashBoard를 이용하여 통계를 내주는 서비스 입니다.\
                 저는 여기서 TypeScript와 React.JS, Marterial- ui를 활용하여\
@@ -54,19 +54,6 @@ const projectList = [
                 하였습니다.",
     url : "#",
   },
-  {
-    id: 4,
-    date: "October 2017 - October 2017",
-    title: " 빅데이터 기반 서울 안심먹거리 어플 제작 ",
-    stack: " Android Studio ",// eslint-disable-next-line
-    contents: "교내 해커톤 대회에 참가하여 2인 1조로 본 어플을 제작하여 은상을 받았습니다. \
-                특히 서울시 홈페이지에 등록되어있는 안심먹거리 가게들의 GOOGLE\
-                map 좌표를 받아와서 gps에 연동시킨 후 자신 주변에 있는\
-                안심먹거리 가게들의 위치와 정보, 번호를 나타나게 만들었습니다.\
-                그래서 그 가게를 터치하게 되면 전화번호를 받아와 문의를 할 수\
-                있게끔 구현하였습니다.",
-    url : "#",
-  }
 ]
 
 const Experience = () => {
