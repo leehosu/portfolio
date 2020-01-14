@@ -101,7 +101,6 @@
   }
 
   .header-scrollDown {
-    display: block;
-    top: 60%;
+    display: none;
   }
 }

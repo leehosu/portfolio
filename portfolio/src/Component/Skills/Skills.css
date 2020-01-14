@@ -79,7 +79,9 @@
   }
 
   .contents-Skills li {
-    font-size: 4em;
+    font-size: 3em;
     margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
   }
 }

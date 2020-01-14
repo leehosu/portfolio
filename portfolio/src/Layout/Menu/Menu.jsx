@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import {
   Link,
   } from "react-scroll";
-import ReactDOM from 'react-dom';
 import './Menu.css';
 
 class Menu extends Component {

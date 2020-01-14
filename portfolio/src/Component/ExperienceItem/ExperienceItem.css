@@ -114,6 +114,7 @@
 
   .vtimeline-content {
     margin-left: 120px;
+    padding: 30px;
   }
 
   .vtimeline-content h3 {
@@ -122,7 +123,7 @@
     color: #374054;
     display: inline-block;
     margin: 0;
-    padding-bottom: 10px;
+    padding: 10px;
   }
 
   .vtimeline-content h4 {
@@ -130,6 +131,7 @@
     font-weight: 300;
     color: #7e8890;
     margin: 0 0 15px 0;
+    padding: 10px;
   }
 
   .vtimeline-content p {
@@ -137,6 +139,8 @@
     font-size: 2em;
     margin: 0;
     line-height: 2em;
+    padding: 10px;
+
   }
 
 }

@@ -31,7 +31,17 @@
 
 @media only screen and (max-width: 992px) {
   .menu {
-    font-size: 50px;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    color: #3498db;
+    font-size: 3em;
+    z-index: 999;
+    padding: 0 7px;
+    border-radius: 4px;
+    background: black;
+    width: 100%;
   }
 
   .menu_item {

@@ -13,3 +13,12 @@
   border-radius: 4px;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 992px) {
+  .topBtn {
+    bottom: 50px;
+    right: 50px;
+    font-size: 40px;
+    padding: 30px;
+  }
+}
