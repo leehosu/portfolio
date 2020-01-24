@@ -2,7 +2,7 @@ import React from 'react';
 import gitLogo from './gitLogo.svg';
 import './ExperienceItem.css';
 
-const ExperienceItem = ({date,title,stack,contents, url}) => {
+const ExperienceItem = ({key,date,title,stack,contents, url}) => {
 
   return (
     <>

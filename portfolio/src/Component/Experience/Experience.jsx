@@ -62,9 +62,9 @@ const Experience = () => {
       <h2 className="Experience-heading">Experience</h2>
       {projectList.map(
         ({
-          date,title,stack,contents,url
+          id,date,title,stack,contents,url
         }) => (
-          <ExperienceItem date={date} title={title} stack={stack} contents={contents} url={url} />
+          <ExperienceItem key={id} date={date} title={title} stack={stack} contents={contents} url={url} />
         )
       )}
       

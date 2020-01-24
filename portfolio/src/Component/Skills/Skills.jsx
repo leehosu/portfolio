@@ -23,6 +23,9 @@ const Skills = () => {
         <li>MariaDB</li>
         <li>R</li>
         <li>Linux</li>
+        <li>Git & Github</li>
+        <li>Notion</li>
+        <li>Slack</li>
       </ul>
     </Element>
   );
