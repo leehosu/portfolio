@@ -1,5 +1,5 @@
 import React from 'react';
-import gitLogo from './gitLogo.svg';
+import gitLogo from './github.svg';
 import './ExperienceItem.css';
 
 const ExperienceItem = ({key,date,title,stack,contents, url}) => {
@@ -9,8 +9,10 @@ const ExperienceItem = ({key,date,title,stack,contents, url}) => {
       <div className="Experience-timeline">
         <div className="vtimeline-point">
           <div className="vtimeline-icon">
-            <a href = {url} >
-            <img src={gitLogo} alt="git" className="gitIcon" />
+            <a href={url} target="_blank" rel="noopener noreferrer" >
+              {
+                url === "#" ? "" : (<img src={gitLogo} alt="git" className="gitIcon" />)
+              }
             </a>
           </div>
           <div className="vtimeline-block">
